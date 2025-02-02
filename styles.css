@@ -1,0 +1,25 @@
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container img {
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        padding: 20px;
+        padding-top: 60px;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .btn {
+        font-size: 32px !important;
+    }
+  }
