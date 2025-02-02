@@ -14,7 +14,6 @@ const images = [ img1,img2, img3, img4, img5];
 
 // this chooses a random number from all available image indices
 var randomImage = images[Math.floor(Math.random() * images.length)];
-console.log(randomImage);
 // make the URL into a proper image tag
 var image = "<img src='" + randomImage + "'>";
 // append to the div
